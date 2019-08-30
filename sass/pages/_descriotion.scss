@@ -1,0 +1,121 @@
+.priceWrapper {
+    padding: 2px 0 3px 0;
+    background: #ededed;
+    margin-bottom: 31px;
+}
+
+.priceBlock {
+    text-align: center;
+    
+    & > span {
+        font-size: 24px;
+        line-height: 30px;
+        text-transform: uppercase;
+        display: block;
+        position: relative;
+        left: -117px;
+        margin-bottom: 7px;
+    }
+    p {
+        font-size: 48px;
+        line-height: 56px;
+        display: block;
+        position: relative;
+        left: 45px;
+        
+        span {
+           text-transform: uppercase; 
+        }
+    }
+    
+    @media (max-width: 767px ) {
+        & p {
+            left: 0;
+            font-size: 42px;
+        }
+        & > span {
+            font-size: 20px;
+            left: 0;
+        }
+    }
+}
+
+.swMb-39 {
+    margin-bottom: 39px;
+}
+
+.desMoreInfo {
+    text-align: center;
+    position: relative;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 15px;
+    margin-bottom: 45px;
+    h4 {
+        font-size: 24px;
+        line-height: 30px;
+        text-transform: uppercase;
+        margin-bottom: 17px;
+    }    
+    
+    p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+
+.tumbWrapper {
+    max-width: 355px;
+    padding: 0 15px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 45px;
+    vertical-align: top;
+    
+    img {
+        max-width: 100%;
+        height: auto;
+        display: inline-block;
+        margin-bottom: 45px;
+    }
+    
+    .desInfo {
+        p {
+            font-size: 16px;
+            line-height: 18px;
+        } 
+    }
+     
+    &:nth-child(2) {
+        margin: 0 45px;
+        margin-bottom: 45px;
+    }
+    
+    @media (max-width: 1199px) {
+        & {
+            max-width: 320px;
+        }
+        &:nth-child(2) {
+            margin: 0 0 45px 0;
+        }
+    }
+    
+    @media (max-width: 991px) {
+        & {
+            max-width: 245px;
+        }
+        &:nth-child(2) {
+            margin: 0 auto;
+            margin-bottom: 45px;
+        }
+    }
+    
+    @media (max-width: 767px) {
+        & {
+            display: block;
+            max-width: 355px;
+        }
+    }
+}

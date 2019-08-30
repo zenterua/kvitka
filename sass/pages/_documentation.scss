@@ -1,0 +1,36 @@
+.imgShortocode {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.docWrapper {
+    position: relative;
+    cursor: pointer;
+    
+    img {
+        width: 100%;
+    }
+}
+
+.noLeftP {
+    padding-left: 0;
+}
+
+.noRightP {
+    padding-right: 0;
+}
+
+.swiperPopup {
+    background: transparent;
+    padding: 0;
+    text-align: center;
+}
+
+.swMb-104 {
+    margin-bottom: 104px !important;
+    
+    @media (max-width: 767px) {
+        margin-bottom: 35px !important;
+    }
+}

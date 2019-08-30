@@ -1,0 +1,32 @@
+/* FOOTER STYLE
+ * -------------------------- */
+.footer {
+    position: relative;
+	background: #2c2c2c;
+	padding: 10px 0;
+	height: 37px;
+	margin-top: -37px;
+}
+
+.ftr-info {
+	display: table;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.copy {
+	display: inline-block;
+	color: #fff;
+	margin-right: 34px;
+	@media screen and (max-width:481px) {
+		margin-right: 16px;
+	}
+}
+
+.ftr-social {
+	display: inline-block;
+}
+
+.ftr-social a {
+	margin: 0 0;
+}

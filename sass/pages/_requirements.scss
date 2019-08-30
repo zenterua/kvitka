@@ -1,0 +1,38 @@
+.info-element-info {
+    min-height: 185px;
+    position: relative;
+    .moreInfo  {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        -webkit-transform: translate(-50%);
+        transform: translate(-50%);
+        @media (max-width: 767px) {
+            & {
+                position: relative;
+                left: 0;
+                -webkit-transform: translate(0);
+                transform: translate(0);
+            }
+        }
+    }
+    @media (max-width: 991px) {
+            & {
+                min-height: 240px;
+            }
+        }
+    
+    @media (max-width: 767px) {
+        & {
+            min-height: auto;
+        }
+    }
+}
+
+.pb50 p {
+    padding-bottom: 50px;
+    @media (max-width: 767px) {
+        padding-bottom: 0
+    }
+}
+

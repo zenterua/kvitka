@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Новини</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" /> 
+    <style>
+        #loader-wrapper {position: fixed; width: 100%; height: 100%; left: 0; top: 0; z-index: 100; background: #fff;}
+        .cssload-container {width: 100%; height: auto; text-align: center; position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
+        .load-title {position: absolute; color: #2C2C2C; font-size: 40px; font-weight: 700; left: 50%; margin-left: -70px;}
+
+        .load-title:before {content: attr(data-text);position: absolute;overflow: hidden;max-width: 40px;white-space: nowrap;color: red;-webkit-animation: loading 3s linear;animation: loading 3s linear;}
+        @-webkit-keyframes mymove {0% {max-width: 0;}100% {max-width: 100%;}}@keyframes loading {0% {max-width: 0;}100% {max-width: 100%;}}
+    </style>
+</head>
+
+<body>
+    <div id="loader-wrapper">
+        <div class="cssload-container">
+            <img src="img/loader-icon.png" alt="">
+            <h3 class="load-title" data-text="КВІТКА">КВІТКА</h3>
+        </div>
+    </div>
+    <div class="wrapper">
+        <!-- CONTENT -->
+        <div class="content">
+            <!-- HEADER-START -->
+            <header class="header fixed clearfix">
+                <div class="contact-panel">
+                    <div class="row">
+                        <div class="container clearfix">
+                            <div class="contact-box"> <a href="tel:+38 (067) 657-3333"><i class="icon-mobile"></i>+38 (067) 657-3333</a> <a class="headerEmail" href="mailto:welcome@kvitka.house"><i class="icon-mail-1 emailIcon"></i><span>welcome@kvitka.house</span></a> </div>
+                            <div class="social-box"> <a target="_blank" href="https://plus.google.com/b/113293145030935786104/113293145030935786104/about"><i class="icon-gplus-1 headerGp"></i></a> <a target="_blank" href="https://www.facebook.com/pages/%D0%9A%D0%B2%D1%96%D1%82%D0%BA%D0%B0-%D0%9C%D0%B0%D0%B9%D1%81%D1%82%D0%B5%D1%80%D0%BD%D1%8F-%D0%B1%D1%83%D0%B4%D0%B8%D0%BD%D0%BA%D1%96%D0%B2/114969995520624"><i class="icon-facebook headerFb"></i></a> </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- NAVIGATION -->
+                <div class="navigation">
+                    <div class="container clearfix">
+                        <a href="index.html"> <img src="img/logo-kvitka.png" alt="Логотип - Квітка.Майстерня будинків"> </a>
+                        <nav class="nav">
+                            <ul id="menu-main-menu" class="navbar-nav">
+                                <li class="nav-item menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent-submenu mainMenuActive"><a href="description.html">Наші проекти</a><i class="fa  open-sub fa-angle-down icon-angle-down"></i>
+                                    <ul role="menu" class=" submenu">
+                                        <li class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-302"><a title="Бортнянська" href="description.html">Бортнянська</a></li>
+                                        <li class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-126"><a title="Личаківська" href="description.html">Личаківська</a></li>
+                                        <li class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-701"><a title="Старознесенська" href="description.html">Старознесенська</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent-submenu"> <a href="done.html">Здані об’єкти</a><i class="fa  open-sub fa-angle-down icon-angle-down"></i>
+                                    <ul role="menu" class=" submenu">
+                                        <li class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-302"><a title="Цоколь" href="http://www.kvitka.house/socle/">Цоколь</a></li>
+                                        <li class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-126"><a title="1 поверх" href="http://www.kvitka.house/1-floor/">1 поверх</a></li>
+                                        <li class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-701"><a title="2 поверх" href="http://www.kvitka.house/2-floor/">2 поверх</a></li>
+                                        <li class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-745"><a title="3 поверх" href="http://www.kvitka.house/3-floor/">3 поверх</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item menu-item menu-item-type-custom menu-item-object-custom"><a href="about.html">Про компанію</a></li>
+                                <li class="nav-item menu-item menu-item-type-custom menu-item-object-custom"><a href="news.html">Новини</a></li>
+                                <li class="nav-item menu-item menu-item-type-custom menu-item-object-custom"><a href="contact.html">Контакти</a></li>
+                            </ul>
+                        </nav>
+                        <div class="menu-button"> <span></span> <span></span> <span></span> </div>
+                    </div>
+                </div>
+            </header>
+            <div class="headerFixClear"></div>
+            <!-- HEADER-END -->
+            
+            <!-- INFO ROW-START -->
+            <div class="title-row mb-15">
+                <h3>Будинок на Бортнянського</h3>
+            </div>
+            <div class="subNavWrapper">
+                <div class="sub-nav">
+                    <div class="container">
+                        <ul class="clearfix">
+                            <li><a href="description.html">Опис</a></li>
+                            <li><a href="location.html">Локація</a></li>
+                            <li><a href="planning.html">Планування</a></li>
+                            <li class="active"><a href="works.html">Хід будівництва</a></li>
+                            <li><a href="documentation.html">Документація</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- INFO ROW-END -->
+            
+            <!-- NEWS CONTAINER-START -->
+            <div class="news-container worksWrapper">
+                <!-- NEWS ROW -->
+                <div class="info-row clearfix">
+                    <div class="container">
+                        <div class="col-sm-12 no-padding">
+                            <div class="info-element info-element-news">
+                                <a class="open-img" href="img/news1.jpg"> <img src="img/news1.jpg" alt=""> </a>
+                                <div class="info-element-info">
+                                    <h3><a>Хід робіт станом на</a></h3>
+                                    <div class="date"> 03.11.2016 </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                                    <p class="hidden-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaq ue ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p> <a class="read-more" href="#">Читати далі</a> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- NEWS ROW -->
+                <div class="info-row clearfix">
+                    <div class="container">
+                        <div class="col-sm-6 no-padding">
+                            <div class="info-element info-element-news">
+                                <a class="open-img" href="img/work-img2.jpg"> <img src="img/work-img2.jpg" alt=""> </a>
+                                <div class="info-element-info">
+                                    <h3><a >Хід робіт станом на</a></h3>
+                                    <div class="date"> 25.09.2016 </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                    <p class="hidden-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaq ue ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p> <a class="read-more" href="#">Читати далі</a> </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 no-padding">
+                            <div class="info-element info-element-news">
+                                <a class="open-img" href="img/work-img.jpg"> <img src="img/work-img.jpg" alt=""> </a>
+                                <div class="info-element-info">
+                                    <h3><a >Поспішай придбати квартиру зі знижкою!</a></h3>
+                                    <div class="date"> 11.10.2016 </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                    <p class="hidden-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaq ue ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p> <a class="read-more" href="#">Читати далі</a> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="old-posts clearfix">
+                <div class="loader-old">
+                    <div class="loader__figure"></div>
+                </div>
+                <span class="old-point">старше</span> 
+           </div>
+            <!-- NEWS CONTAINER-END -->
+        </div>
+        
+        <!-- FOOTER-START -->
+        <footer class="footer">
+            <div class="container">
+                <div class="ftr-info">
+                    <div class="copy">Квітка. Майстерня будинків</div>
+                    <div class="ftr-social"> <a target="_blank" href="https://plus.google.com/b/113293145030935786104/113293145030935786104/about"><i class="icon-gplus-1"></i></a> <a target="_blank" href="https://www.facebook.com/pages/%D0%9A%D0%B2%D1%96%D1%82%D0%BA%D0%B0-%D0%9C%D0%B0%D0%B9%D1%81%D1%82%D0%B5%D1%80%D0%BD%D1%8F-%D0%B1%D1%83%D0%B4%D0%B8%D0%BD%D0%BA%D1%96%D0%B2/114969995520624"><i class="icon-facebook"></i></a> </div>
+                </div>
+            </div>
+        </footer>
+        <!-- FOOTER-END -->
+        
+    </div>
+    
+    
+    <!-- STYLE -->
+    <link rel="stylesheet" href="css/style.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100, 400,300,500,700&subset=latin,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
+    
+    <!-- SCRIPTS -->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/idangerous.swiper.min.js"></script>
+    <script src="js/main.min.js"></script>
+    
+</body>
+
+</html>
